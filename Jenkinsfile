@@ -26,7 +26,7 @@ pipeline{
 		steps {
 
 			sh '''
-				oc project jitesh86-greetings
+				oc project vfksqw-greetings
 				oc start-build greeting-console --follow --wait
 			'''
 		}
